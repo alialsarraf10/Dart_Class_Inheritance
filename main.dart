@@ -28,5 +28,5 @@ class LoyalCustomer extends Customer {
   LoyalCustomer(super.name);
   @override
   // TODO: implement _purchaseAmount
-  double get _purchaseAmount => (super._purchaseAmount * 0.9);
+  double getPurchaseAmount() => (super.getPurchaseAmount() * 0.9);
 }
